@@ -1,0 +1,89 @@
+# #################
+# GLOBAL SETTINGS #
+# #################
+TRAIN_RL :
+  value : False
+
+NB_EPOCHS:
+  value : 999
+
+ROOT_WEIGHTS:
+  value : './weights/'
+
+# ########################
+# PAPIERFEWSHOT SETTINGS #
+# ########################
+LOADER:
+  value : "json"
+
+MODEL:
+  # "big", "small"
+  value : "small"
+
+LAYERS:
+  # "big", "small"
+  value: "big"
+
+DATASET:
+  # "big", "small"
+  value : "small"
+
+CONCAT:
+  # "first", "last", ""
+  value: ""
+
+LEARNING_RATE_EMB:
+  value: 0.00005
+
+LEARNING_RATE_GEN:
+  value: 0.00005
+
+LEARNING_RATE_DISC:
+  value: 0.00005
+
+TTUR:
+  value : True
+
+ATTENTION : 
+  value : True
+
+HALF:
+  value : False
+
+K_SHOT:
+  value : 8
+
+LATENT_SIZE :
+  value: 512
+
+NB_WORKERS:
+  value : 6
+
+# #############
+# RL SETTINGS #
+# #############
+GAMMA:
+  value : 0.999
+
+LEARNING_RATE_RL:
+  value : 0.01
+
+EPS_START:
+  value : 0.9
+
+EPS_END:
+  value : 0.05
+
+EPS_DECAY:
+  value : 200
+
+MAX_DEQUE_LANDMARKS:
+  value : 1000
+
+MAX_ITER_PERSON:
+  value : 50
+
+
+IN_DISC:
+  # "noisy", ""
+  value : ""
